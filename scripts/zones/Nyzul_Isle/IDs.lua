@@ -185,8 +185,7 @@ zones[xi.zone.NYZUL_ISLE] =
 
         -- Nyzul Isle Investigation
         RUNIC_LAMP_OFFSET   = GetFirstID('Runic_Lamp'),
-        _257                = GetFirstID('_257'),
-        _259                = GetFirstID('_259'),
+        DOOR_OFFSET         = GetFirstID('_257'),
         RUNE_TRANSFER_START = GetFirstID('Rune_of_Transfer_Start'),
         VENDING_BOX         = GetFirstID('Vending_Box'),
 

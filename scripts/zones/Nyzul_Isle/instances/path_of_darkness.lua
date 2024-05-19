@@ -89,7 +89,7 @@ instanceObject.onInstanceProgressUpdate = function(instance, progress)
         local npcs = instance:getNpcs()
 
         for i, value in pairs(npcs) do
-            if value:getID() == ID.npc._259 then
+            if value:getID() == ID.npc.DOOR_OFFSET + 2 then
                 value:setAnimation(8)
             end
         end
