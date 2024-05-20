@@ -9,6 +9,31 @@ require('scripts/zones/Nyzul_Isle/instances/nyzul_isle_investigation')
 -----------------------------------
 local entity = {}
 
+local floorWarpCost =
+{
+    [ 1] = { level =  1, cost =    0 },
+    [ 2] = { level =  6, cost =  500 },
+    [ 3] = { level = 11, cost =  550 },
+    [ 4] = { level = 16, cost =  600 },
+    [ 5] = { level = 21, cost =  650 },
+    [ 6] = { level = 26, cost =  700 },
+    [ 7] = { level = 31, cost =  750 },
+    [ 8] = { level = 36, cost =  800 },
+    [ 9] = { level = 41, cost =  850 },
+    [10] = { level = 46, cost =  900 },
+    [11] = { level = 51, cost = 1000 },
+    [12] = { level = 56, cost = 1100 },
+    [13] = { level = 61, cost = 1200 },
+    [14] = { level = 66, cost = 1300 },
+    [15] = { level = 71, cost = 1400 },
+    [16] = { level = 76, cost = 1500 },
+    [17] = { level = 81, cost = 1600 },
+    [18] = { level = 86, cost = 1700 },
+    [19] = { level = 91, cost = 1800 },
+    [20] = { level = 96, cost = 1900 },
+}
+
+
 entity.onTrigger = function(player, npc)
     local instance      = player:getInstance()
     local tokens        = player:getCurrency('nyzul_isle_assault_point')
@@ -39,7 +64,7 @@ entity.onEventFinish = function(player, csid, option, npc)
         option < 21 and
         instance:getLocalVar('runeHandler') == player:getID()
     then
-        local floorCost = xi.nyzul.floorCost[option]
+        local floorCost = floorWarpCost[option]
 
         if player:getCurrency('nyzul_isle_assault_point') >= floorCost.cost then
             player:delCurrency('nyzul_isle_assault_point', floorCost.cost)

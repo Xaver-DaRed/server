@@ -92,30 +92,6 @@ xi.nyzul.FloorLayout =
 --  [24] = { -64.5,    0,   60 },
 }
 
-xi.nyzul.floorCost =
-{
-    [ 1] = { level =  1, cost =    0 },
-    [ 2] = { level =  6, cost =  500 },
-    [ 3] = { level = 11, cost =  550 },
-    [ 4] = { level = 16, cost =  600 },
-    [ 5] = { level = 21, cost =  650 },
-    [ 6] = { level = 26, cost =  700 },
-    [ 7] = { level = 31, cost =  750 },
-    [ 8] = { level = 36, cost =  800 },
-    [ 9] = { level = 41, cost =  850 },
-    [10] = { level = 46, cost =  900 },
-    [11] = { level = 51, cost = 1000 },
-    [12] = { level = 56, cost = 1100 },
-    [13] = { level = 61, cost = 1200 },
-    [14] = { level = 66, cost = 1300 },
-    [15] = { level = 71, cost = 1400 },
-    [16] = { level = 76, cost = 1500 },
-    [17] = { level = 81, cost = 1600 },
-    [18] = { level = 86, cost = 1700 },
-    [19] = { level = 91, cost = 1800 },
-    [20] = { level = 96, cost = 1900 },
-}
-
 xi.nyzul.appraisalItems =
 {
     [xi.appraisal.origin.NYZUL_BAT_EYE              ] = xi.item.APPRAISAL_AXE,

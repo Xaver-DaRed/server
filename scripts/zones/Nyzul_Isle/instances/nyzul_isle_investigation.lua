@@ -23,7 +23,7 @@ local function pickSetPoint(instance)
         instance:setStage(xi.nyzul.objective.FREE_FLOOR)
         instance:setLocalVar('freeFloor', 1)
 
-        GetNPCByID(ID.npc.RUNE_TRANSFER_START, instance):timer(9000,
+        GetNPCByID(ID.npc.RUNE_OF_TRANSFER_ENTRANCE, instance):timer(9000,
         function(m)
             local currentInstance = m:getInstance()
             currentInstance:setProgress(15)

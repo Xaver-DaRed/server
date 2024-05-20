@@ -184,10 +184,13 @@ zones[xi.zone.NYZUL_ISLE] =
         },
 
         -- Nyzul Isle Investigation
-        RUNIC_LAMP_OFFSET   = GetFirstID('Runic_Lamp'),
-        DOOR_OFFSET         = GetFirstID('_257'),
-        RUNE_TRANSFER_START = GetFirstID('Rune_of_Transfer_Start'),
-        VENDING_BOX         = GetFirstID('Vending_Box'),
+        ARMOURY_CRATE_OFFSET       = GetFirstID('Armoury_Crate'),
+        ARMOURY_CRATE_VIGIL_OFFSET = GetFirstID('Armoury_Crate_Vigil'),
+        RUNE_OF_TRANSFER_OFFSET    = GetFirstID('Rune_of_Transfer'),
+        RUNIC_LAMP_OFFSET          = GetFirstID('Runic_Lamp'),
+        DOOR_OFFSET                = GetFirstID('_257'),
+        RUNE_OF_TRANSFER_ENTRANCE  = GetFirstID('Rune_of_Transfer_Entrance'),
+        VENDING_BOX                = GetFirstID('Vending_Box'),
 
         -- Other instances
         WEATHER             = 17093424,
