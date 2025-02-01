@@ -185,7 +185,7 @@ zones[xi.zone.NYZUL_ISLE] =
 
         -- Nyzul Isle Investigation
         ARMOURY_CRATE_OFFSET       = GetFirstID('Armoury_Crate'),
-        ARMOURY_CRATE_VIGIL_OFFSET = GetFirstID('Armoury_Crate_Vigil'),
+        ARMOURY_CRATE_VIGIL_OFFSET = GetFirstID('Armoury_Crate_Appraisal'),
         RUNE_OF_TRANSFER_OFFSET    = GetFirstID('Rune_of_Transfer'),
         RUNIC_LAMP_OFFSET          = GetFirstID('Runic_Lamp'),
         DOOR_OFFSET                = GetFirstID('_257'),

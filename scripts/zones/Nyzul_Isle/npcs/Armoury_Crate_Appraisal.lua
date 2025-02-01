@@ -1,16 +1,15 @@
 -----------------------------------
 -- Area:  Nyzul_Isle
 -- NPC:   Armoury Crate
--- Notes: Dispenses temporal items.
+-- Notes: Dispenses Vigil Weapons.
 -----------------------------------
 local entity = {}
 
 entity.onTrigger = function(player, npc)
-    xi.nyzul.temporalItemCrateOnTrigger(player, npc)
+    xi.nyzul.vigilWeaponCrateOnTrigger(player, npc)
 end
 
 entity.onEventFinish = function(player, csid, option, npc)
-    xi.nyzul.temporalItemCrateOnEventFinish(player, csid, option, npc)
 end
 
 return entity
