@@ -348,6 +348,11 @@ bool CMagicState::CanCastSpell(CBattleEntity* PTarget, bool isEndOfCast)
         }
     }
 
+    if (m_PEntity->IsNameHidden())
+    {
+        return false;
+    }
+
     if (!HasCost())
     {
         return false;
